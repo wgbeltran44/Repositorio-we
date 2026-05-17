@@ -29,3 +29,6 @@ UPDATE users SET role = 'artista' WHERE id = 3;
 UPDATE users SET role = 'usuario' WHERE id = 5;
 
 SELECT imagen FROM obras;
+
+use registrologin;
+DESCRIBE users;
